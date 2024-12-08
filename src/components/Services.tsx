@@ -1,4 +1,3 @@
-import React from 'react';
 import { Globe, Smartphone, Search, Gauge, Shield, Wrench } from 'lucide-react';
 import { useLocale } from '../hooks/useLocale';
 
@@ -60,9 +59,9 @@ export default function Services() {
               className="card group"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-              <div className="mb-6 relative">
-                <div className="absolute inset-0 bg-gradient-to-br from-indigo-100 to-violet-100 rounded-full scale-0 group-hover:scale-100 transition-transform duration-300"></div>
-                <service.icon className="h-12 w-12 text-gradient relative z-10 transform group-hover:scale-110 transition-transform duration-300" />
+              <div className="mb-6 relative flex items-center justify-center">
+                <div className="absolute inset-0 bg-gradient-to-br from-indigo-100  to-violet-100 rounded-full scale-0 group-hover:scale-100 transition-transform duration-300"></div>
+                <service.icon className="h-12 w-12 text-indigo-600  relative z-10 transform group-hover:scale-110 transition-transform duration-300" />
               </div>
               <h3 className="text-xl font-semibold mb-3 group-hover:text-gradient transition-colors duration-300">
                 {service.title}

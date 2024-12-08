@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Menu, X, Globe, Code2 } from 'lucide-react';
 import { useLocale } from '../hooks/useLocale';
+import {Language} from "../types";
 
-const languages = [
+const languages:{code:Language,name:string}[] = [
   { code: 'en', name: 'English' },
   { code: 'pl', name: 'Polski' },
   { code: 'ru', name: 'Русский' },

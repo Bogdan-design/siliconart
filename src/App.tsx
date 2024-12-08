@@ -1,4 +1,3 @@
-import React from 'react';
 import { LocaleContext, useLocaleProvider } from './hooks/useLocale';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';

@@ -1,6 +1,5 @@
-import React from 'react';
-import { useLocale } from '../hooks/useLocale';
-import { ArrowRight, Code2 } from 'lucide-react';
+import {useLocale} from '../hooks/useLocale';
+import {ArrowRight, Code2} from 'lucide-react';
 
 export default function Hero() {
   const { t } = useLocale();
@@ -23,7 +22,7 @@ export default function Hero() {
           {/* Logo Animation */}
           <div className="flex justify-center mb-8">
             <div className="p-4 bg-white/80 backdrop-blur-sm rounded-2xl shadow-xl animate-float">
-              <Code2 className="h-16 w-16 text-gradient" />
+              <Code2 className="h-16 w-16 text-indigo-600"  />
             </div>
           </div>
 
