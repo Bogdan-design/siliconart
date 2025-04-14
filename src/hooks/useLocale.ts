@@ -36,7 +36,7 @@ export const useLocaleProvider = () => {
         console.warn(`Translation missing for key: ${key} in locale: ${locale}`);
         return locales.en[keys[0]]?.[keys[1]] || key;
       }
-      value = value[k];
+      value = value[k]
     }
     
     return value;
