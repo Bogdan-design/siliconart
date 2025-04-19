@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Menu, X, Globe, Code2 } from 'lucide-react';
+import { Menu, X, Globe} from 'lucide-react';
 import { useLocale } from '../hooks/useLocale';
 import {Language} from "../types";
 
@@ -24,8 +24,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
-            <Code2 className="h-8 w-8 text-indigo-600" />
-            <span className="ml-2 text-xl font-bold text-gray-900">SiliconArt</span>
+            <img src="/src/pablic/20250419_0910_SiliconArt Logo Design_remix_01js6e1kr4egprbk99n49ea0kx.png" alt="Logo" className="h-12 w-34 mr-2" />
           </div>
 
           {/* Desktop Navigation */}
