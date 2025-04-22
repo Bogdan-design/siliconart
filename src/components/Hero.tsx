@@ -1,5 +1,5 @@
 import {useLocale} from '../hooks/useLocale';
-import {ArrowRight, Code2} from 'lucide-react';
+import {ArrowRight} from 'lucide-react';
 
 export default function Hero() {
   const { t } = useLocale();

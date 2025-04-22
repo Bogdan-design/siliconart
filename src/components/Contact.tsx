@@ -1,9 +1,8 @@
-import React, { useState } from 'react';
-import { Send, Mail, Phone, MapPin } from 'lucide-react';
-import { useLocale } from '../hooks/useLocale';
+import React, {useState} from 'react';
+import {Mail, MapPin, Phone, Send} from 'lucide-react';
 
 export default function Contact() {
-  const { t } = useLocale();
+  // const { t } = useLocale();
   const [formData, setFormData] = useState({
     name: '',
     email: '',

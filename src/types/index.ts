@@ -24,8 +24,3 @@ export interface LocaleContent {
   };
 }
 
-export interface Service {
-  icon: React.FC;
-  titleKey: string;
-  descriptionKey: string;
-}
