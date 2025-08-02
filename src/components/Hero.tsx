@@ -1,6 +1,6 @@
 import {useLocale} from '../hooks/useLocale';
 import {ArrowRight} from 'lucide-react';
-import logo from '../../public/images/logo.png'; // Adjust the path as necessary
+import logo from '../../pablic/images/logo.png'; // Adjust the path as necessary
 
 export default function Hero() {
   const { t } = useLocale();
