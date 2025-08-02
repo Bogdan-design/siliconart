@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Menu, X, Globe} from 'lucide-react';
 import { useLocale } from '../hooks/useLocale';
 import {Language} from "../types";
+import logoNavbar from '../../pablic/imeges/20250419_0910_SiliconArt Logo Design_remix_01js6e1kr4egprbk99n49ea0kx.png'
 
 const languages:{code:Language,name:string}[] = [
   { code: 'en', name: 'English' },
@@ -24,7 +25,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
-            <img src="/pablic/20250419_0910_SiliconArt Logo Design_remix_01js6e1kr4egprbk99n49ea0kx.png" alt="Logo" className="h-12 w-34 mr-2" />
+            <img src={logoNavbar} alt="Logo" className="h-12 w-34 mr-2" />
           </div>
 
           {/* Desktop Navigation */}
