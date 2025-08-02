@@ -22,7 +22,7 @@ export default function Hero() {
           {/* Logo Animation */}
           <div className="flex justify-center mb-8">
             <div className="p-4 bg-white/80 backdrop-blur-sm rounded-2xl shadow-xl animate-float">
-              <img src="/pablic/logo.png" alt="Logo" className="h-24 w-24" />
+              <img src="/pablic/images/logo.png" alt="Logo" className="h-24 w-24" />
             </div>
           </div>
 

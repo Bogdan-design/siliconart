@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Menu, X, Globe} from 'lucide-react';
 import { useLocale } from '../hooks/useLocale';
 import {Language} from "../types";
-import logoNavbar from '../../pablic/imeges/20250419_0910_SiliconArt Logo Design_remix_01js6e1kr4egprbk99n49ea0kx.png'
+import logoNavbar from '../../pablic/images/20250419_0910_SiliconArt Logo Design_remix_01js6e1kr4egprbk99n49ea0kx.png'
 
 const languages:{code:Language,name:string}[] = [
   { code: 'en', name: 'English' },
